@@ -33,7 +33,7 @@ jobs:
     runs-on: macos-latest
     env:
       APP: OpenHaystackServer
-      PROJECT_DIR: OpenHaystack
+      PROJECT_DIR: OpenHaystackServer
     defaults:
       run:
         working-directory: ${{ env.PROJECT_DIR }}
